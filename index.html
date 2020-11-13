@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculator</title>
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<link rel="stylesheet" href="../include/css/bootstrap.min.css">
+	<script src="jquery-3.2.1.min.js"></script>
+	<script src="cal.js"></script>
+</head>
+<body>
+	<center>
+	<div class="board">
+		<div class="screen">
+			<label id="field1" name="textbox1"></label><br>
+		</div>
+		<input type="button" value="1" id="b1" onclick="write1(this)" class="btn btn-success">
+		<input type="button" value="2" id="b2" onclick="write1(this)" class="btn btn-success">
+		<input type="button" value="3" id="b3" onclick="write1(this)" class="btn btn-success">
+		<input type="button" value="+" id="bplus" onclick="save1(this)" class="btn btn-success"><br>
+		<input type="button" value="4" id="b4" onclick="write1(this)" class="btn btn-success">
+		<input type="button" value="5" id="b5" onclick="write1(this)" class="btn btn-success">
+		<input type="button" value="6" id="b6" onclick="write1(this)" class="btn btn-success">
+		<input type="button" value="-" id="bminus" onclick="save1(this)" class="btn btn-success"><br>
+		<input type="button" value="7" id="b7" onclick="write1(this)" class="btn btn-success">
+		<input type="button" value="8" id="b8" onclick="write1(this)" class="btn btn-success">
+		<input type="button" value="9" id="b9" onclick="write1(this)" class="btn btn-success">
+		<input type="button" value="*" id="bmul" onclick="save1(this)" class="btn btn-success"><br>
+		<input type="button" value="0" id="b0" onclick="write1(this)" class="btn btn-success">
+		<input type="button" value="." id="bdot" onclick="write1(this)" class="btn btn-success">
+		<input type="button" value="=" id="bequal" onclick="evaluate1(document.getElementById('field1'))" class="btn btn-success">
+		<input type="button" value="/" id="bdiv" onclick="save1(this)" class="btn btn-success"><br>
+		<input type="button" value="C" id="back" onclick="clear1()" class="btn1 btn-danger">
+		<input type="button" value="CE" id="reset" onclick="clearall()" class="btn1 btn-danger">
+	</div>
+	</center>
+</body>
+</html>

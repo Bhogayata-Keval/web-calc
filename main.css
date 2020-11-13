@@ -1,0 +1,29 @@
+.btn
+{
+	width: 40px;
+	height: 40px;
+	margin: 2px;
+}
+
+.btn1
+{
+	width: 88px;
+	height: 40px;
+	margin: 2px;
+	margin-bottom: 10px;
+}
+
+.board
+{
+	width: 200px;
+
+}
+
+.screen
+{
+	width: 200px;
+	margin: 15px;
+	margin-left: 0px;
+	padding: 10px;
+	border: 2px solid black;
+}
